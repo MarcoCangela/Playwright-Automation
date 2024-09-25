@@ -1,0 +1,1 @@
+Trying out Playwright with Python for automated testing.
