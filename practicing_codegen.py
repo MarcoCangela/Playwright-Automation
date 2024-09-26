@@ -19,8 +19,20 @@ def run(playwright: Playwright) -> None:
     page1 = page1_info.value
     page1.close()
     page.get_by_role("link", name="QA Practice").click()
+    page.get_by_role("link",name="Forms").click()
+    page.get_by_role("link", name="Register").click()
+    page.get_by_placeholder("Enter first name").fill("Marco")
+    page.get_by_placeholder("Enter last name").fill("Garujo")
+    page.get_by_placeholder("Enter phone number").fill("827025827")
+    page.get_by_placeholder("Enter email").fill("Testemail@email.com")
+    page.get_by_placeholder("Password").fill("asdadadsad")
+    page.get_by_label("I agree with the terms and").click()
+    page.get_by_role("button", name="Register").click()
     page.wait_for_load_state("networkidle")
-    expect(page.locator("#sidebarCollapse")).to_be_visible()
+    expect(page.get_by_text("The account has been"))
+    page.pause()
+
+    # expect(page.locator("#sidebarCollapse")).to_be_visible()
     print("Execution Finished")
 
     # ---------------------
