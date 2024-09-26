@@ -24,6 +24,7 @@ def run(playwright: Playwright) -> None:
     page.get_by_placeholder("Enter first name").fill("Marco")
     page.get_by_placeholder("Enter last name").fill("Garujo")
     page.get_by_placeholder("Enter phone number").fill("827025827")
+    page.locator("#countries_dropdown_menu").select_option('Mozambique')
     page.get_by_placeholder("Enter email").fill("Testemail@email.com")
     page.get_by_placeholder("Password").fill("asdadadsad")
     page.get_by_label("I agree with the terms and").click()
