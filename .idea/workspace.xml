@@ -4,9 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f6d8e9fc-6746-410d-89c8-8b8bc654ba32" name="Changes" comment="Adding conftest to parametrize some high used fixtures and running headless">
-      <change beforePath="$PROJECT_DIR$/.github/workflows/python-app.yml" beforeDir="false" afterPath="$PROJECT_DIR$/.github/workflows/python-app.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="f6d8e9fc-6746-410d-89c8-8b8bc654ba32" name="Changes" comment="Configuring yml file">
+      <change beforePath="$PROJECT_DIR$/conftest.py" beforeDir="false" afterPath="$PROJECT_DIR$/conftest.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -166,7 +165,15 @@
       <option name="project" value="LOCAL" />
       <updated>1727627489047</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Configuring yml file">
+      <option name="closed" value="true" />
+      <created>1727632025356</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1727632025356</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -192,7 +199,8 @@
     <MESSAGE value="Adding form input" />
     <MESSAGE value="Adding forgotten dropdown option" />
     <MESSAGE value="Adding conftest to parametrize some high used fixtures and running headless" />
-    <option name="LAST_COMMIT_MESSAGE" value="Adding conftest to parametrize some high used fixtures and running headless" />
+    <MESSAGE value="Configuring yml file" />
+    <option name="LAST_COMMIT_MESSAGE" value="Configuring yml file" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
