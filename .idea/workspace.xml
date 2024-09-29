@@ -4,9 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f6d8e9fc-6746-410d-89c8-8b8bc654ba32" name="Changes" comment="Adding form input">
+    <list default="true" id="f6d8e9fc-6746-410d-89c8-8b8bc654ba32" name="Changes" comment="Adding forgotten dropdown option">
+      <change afterPath="$PROJECT_DIR$/home_page_elements.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test_home_page_layout.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/practicing_codegen.py" beforeDir="false" afterPath="$PROJECT_DIR$/practicing_codegen.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -46,15 +47,16 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Python.main.executor&quot;: &quot;Run&quot;,
-    &quot;Python.practicing_codegen.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Python.main.executor": "Run",
+    "Python.practicing_codegen.executor": "Run",
+    "Python.test_home_page_layout.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "main",
+    "settings.editor.selected.configurable": "com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable"
   }
-}</component>
+}]]></component>
   <component name="RunManager">
     <configuration name="main" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
       <module name="AutomationPlaywright" />
@@ -119,7 +121,15 @@
       <option name="project" value="LOCAL" />
       <updated>1727385992523</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Adding forgotten dropdown option">
+      <option name="closed" value="true" />
+      <created>1727386416218</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1727386416218</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -143,7 +153,8 @@
     <MESSAGE value="Initial Commit" />
     <MESSAGE value="Second Commit" />
     <MESSAGE value="Adding form input" />
-    <option name="LAST_COMMIT_MESSAGE" value="Adding form input" />
+    <MESSAGE value="Adding forgotten dropdown option" />
+    <option name="LAST_COMMIT_MESSAGE" value="Adding forgotten dropdown option" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

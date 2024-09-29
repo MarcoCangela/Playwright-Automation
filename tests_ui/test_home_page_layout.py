@@ -1,5 +1,5 @@
 from playwright.sync_api import Playwright, sync_playwright, expect
-from home_page_elements import HomePage
+from pom.home_page_elements import HomePage
 
 def verifying_homepage(playwright: Playwright):
     browser = playwright.chromium.launch(headless=False, slow_mo=500)
